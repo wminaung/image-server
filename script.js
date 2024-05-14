@@ -1,7 +1,6 @@
 const imageTag = document.querySelector(".imageFromDigitalOcean");
 
-const apiUrlFromLs = localStorage.getItem("apiUrl");
-
+const apiUrlFromLs = `http://localhost:3001`;
 const uploadFile = async () => {
   const formData = new FormData();
   const inputTag = document.querySelector(".input");
