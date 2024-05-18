@@ -16,8 +16,8 @@ Follow these instructions to set up and run the project on your local machine.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/express-static-file-server.git
-   cd express-static-file-server
+   git clone https://github.com/wminaung/image-server.git
+   cd image-server
    ```
 
 ## 1. Define API Endpoint
