@@ -1,5 +1,4 @@
 import type { NextFunction, Request, Response } from "express";
-import formidable from "formidable";
 import multer from "multer";
 import { v4 as uuidv4 } from "uuid";
 import fs from "fs";
