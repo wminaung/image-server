@@ -22,12 +22,12 @@ Follow these instructions to set up and run the project on your local machine.
 
 ## 1. Define API Endpoint
 
-Define an API endpoint for uploading images. The endpoint URL should be in the format `apiurl /foodman` with the HTTP method `POST`. Ensure that the field name for the image in the request payload is `foodman`.
+Define an API endpoint for uploading images. The endpoint URL should be in the format apiurl -> ` /images/foodman` with the HTTP method `POST`. Ensure that the field name for the image in the request payload is `foodman`.
 
 Example:
 
 ```plaintext
-API URL: http://${hostname}/api/foodman
+API URL: http://${hostname}/api/images/foodman
 Method: POST
 Field Name: foodman
 ```
