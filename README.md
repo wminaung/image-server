@@ -27,7 +27,7 @@ Define an API endpoint for uploading images. The endpoint URL should be in the f
 Example:
 
 ```plaintext
-API URL: http://${hostname}/api/images/foodman
+API URL: http://${hostname}/images/foodman
 Method: POST
 Field Name: foodman
 ```
