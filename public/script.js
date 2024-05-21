@@ -1,4 +1,4 @@
-const apiUrlFromLs = `http://localhost:3001`;
+const apiUrlFromLs = `http://150.95.82.174:3001`;
 const btnTag = document.getElementById("myBtn");
 const btnTag2 = document.getElementById("myBtn2");
 const fileTag = document.getElementById("myFile");
