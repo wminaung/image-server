@@ -14,6 +14,9 @@ app.use(express.urlencoded({ extended: false }));
 // app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static("public"));
 // route
+app.get("/ok", (req, res) => {
+  res.send("ok");
+});
 app.use("/images", imageRouter);
 
 app.listen(port, () => {
